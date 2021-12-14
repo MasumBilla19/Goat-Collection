@@ -1,0 +1,50 @@
+.team {
+    padding-top: 67px;
+    border-top: 2px solid rgba(0,0,0,.25);
+    padding-bottom: 175px;
+}
+.team .team_title {
+    margin: 0 0 65px;
+    font-family: Alfa Slab One,sans-serif;
+    font-size: 68px;
+    line-height: 93px;
+    color: #fff;
+    text-align: center;
+}
+.team .team_list {
+    display: flex;
+    margin-left: -13px;
+    margin-right: -13px;
+}
+.team .team_list .team_item {
+    margin-left: 13px;
+    margin-right: 13px;
+    text-align: center;
+}
+.team .team_list .team_item .team_itemImg {
+    max-width: 100%;
+}
+.team .team_list .team_item .team_itemName {
+    font-family: Alfa Slab One,sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

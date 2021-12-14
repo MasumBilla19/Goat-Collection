@@ -1,0 +1,112 @@
+.hero_menu {
+    position: fixed;
+    top: 319px;
+    left: 0;
+    opacity: 0;
+    transition: opacity .3s;
+    flex: 0 0 auto;
+    z-index: 10;
+}
+.hero_menu::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100% + 60px);
+    height: calc(100% + 60px);
+    background: linear-gradient(180deg,#6209c3 0,#280d89 100%);
+    border-radius: 10px;
+    transition: opacity .3s;
+    opacity: 0;
+}
+.hero_menu .heroMenu_closeBtn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    display: none;
+}
+.hero_menu .hero-menu__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    z-index: 3;
+}
+.hero_menu .hero-menu__list .hero-menu__item:not(:last-of-type) {
+    margin-bottom: 14px;
+}
+.hero_menu .hero-menu__list .hero-menu__item .hero-menu__link {
+    font-size: 20px;
+    font-family: "Alfa Slab One",sans-serif;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    text-decoration: none;
+    transition: font-size .3s,opacity .3s;
+}
+.hero_menu .hero-menu__list .hero-menu__item .hero-menu__link:hover {
+    opacity: .7;
+}
+.hero_menu .btn {
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Alfa Slab One",sans-serif;
+    color: #fff;
+    background: #323133;
+    box-shadow: 6px 8px 4px rgb(0 0 0 / 25%);
+    border-radius: 15px;
+}
+.hero_menu .heroMenu_btn {
+    padding: 8px 37px;
+    transform: translateX(0);
+    font-size: 20px;
+    line-height: 100%;
+    min-width: 240px;
+    margin-top: 15px;
+    transform: translateX(-10px);
+    transition: .3s;
+    min-width: 227px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

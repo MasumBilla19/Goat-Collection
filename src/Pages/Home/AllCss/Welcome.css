@@ -1,0 +1,98 @@
+.welcome {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 93px;
+}
+.welcome .welcomeImg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 820px;
+    max-width: 45vw;
+}
+.welcome .welcomeInner {
+    margin-left: auto;
+    max-width: 650px;
+}
+.welcome .welcomeInner .welcomeTitle {
+    font-family: Alfa Slab One,sans-serif;
+    font-size: 68px;
+    line-height: 93px;
+    color: #fff;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.welcome .welcomeInner .welcomeText {
+    font-family: Sanchez,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+    margin: 0;
+}
+.welcome .welcomeInner .welcome_btnWrapper {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 58px;
+    padding-left: 140px;
+}
+.welcome .welcomeInner .welcome_btnWrapper .btn {
+    padding: 24px 74px;
+}
+.welcome .welcomeInner .welcome_btnWrapper .welcome_btn {
+    font-size: 32px;
+    line-height: 44px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Alfa Slab One",sans-serif;
+    color: #fff;
+    background: #323133;
+    box-shadow: 6px 8px 4px rgb(0 0 0 / 25%);
+    border-radius: 15px;
+    padding: 18px 60px;
+    transition: .3s;
+}
+.welcome .welcomeInner .welcome_numbers {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transform: translateX(60px);
+}
+.welcome .welcomeInner .welcome_numbers .welcome_number {
+    font-family: Alfa Slab One,sans-serif;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    margin: 0 22px;
+}
+.welcome .welcomeInner .welcome_numbers .welcome_number span {
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

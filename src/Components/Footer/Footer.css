@@ -1,0 +1,46 @@
+.footer {
+    background: #172057;
+    padding: 48px 0;
+}
+.footer .footer_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer_row .footer_copyright {
+    font-family: Alfa Slab One,sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    margin: 0 95px 0 0;
+}
+.footer .footer_row .footer_socials .footer_socialLink {
+    display: inline-block;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+.footer .footer_row .footer_socials .footer_socialLink:not(:last-of-type){
+    margin-right: 47px;
+}
+.footer .footer_row .footer_socials .footer_socialLink:hover {
+    opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
